@@ -1,0 +1,34 @@
+{
+    "name":        "divix1988/laminas-smarty-module",
+    "description": "Laminas Module for integrating Smarty 3 as View Manager",
+    "type":        "library",
+    "license":     "MIT",
+    "keywords": [
+        "smarty",
+        "module",
+        "laminas"
+    ],
+    "authors": [
+        {
+            "name": "Heiko Baumgärtner",
+            "email": "skillfish@gmail.com"
+        },
+        {
+            "name": "Adam Omelak",
+            "email": "divix1988@gmail.com"
+        }
+    ],
+    "require": {
+        "php":                                ">5.4",
+        "smarty/smarty":                      "^3.1",
+        "laminas/laminas-stdlib":             "^3.0",
+        "laminas/laminas-mvc":                "^3.0",
+        "laminas/laminas-servicemanager":     "^3.1",
+        "laminas/laminas-modulemanager":      "^2.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Smarty\\": "src/"
+        }
+    }
+}

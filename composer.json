@@ -19,7 +19,7 @@
         }
     ],
     "require": {
-        "php":                                ">5.4",
+        "php":                                "<7.1",
         "smarty/smarty":                      "^3.1",
         "laminas/laminas-stdlib":             "^3.0",
         "laminas/laminas-mvc":                "^3.0",

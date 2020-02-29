@@ -78,11 +78,11 @@ will result in
 The composer module currently requires:
 ```json
 "require": {
-  "php":                                ">5.4",
-  "smarty/smarty":                      "~3.1.29",
-  "laminas/laminas-stdlib":             "~3.0.1",
-  "laminas/laminas-mvc":                "~3.0.1",
-  "laminas/laminas-servicemanager":     "~3.1",
-  "laminas/laminas-modulemanager":      "~2.7.1"
+  "php":                                "^7.1",
+  "smarty/smarty":                      "^3.1",
+  "laminas/laminas-stdlib":             "^3.2",
+  "laminas/laminas-mvc":                "^3.1",
+  "laminas/laminas-servicemanager":     "^3.4",
+  "laminas/laminas-modulemanager":      "^2.8"
 },
 ```
